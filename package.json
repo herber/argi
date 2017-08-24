@@ -1,0 +1,48 @@
+{
+  "name": "argi",
+  "version": "1.0.1",
+  "description": "A simple args parser",
+  "license": "MIT",
+  "repository": "tobihrbr/argi",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "fyi"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "args",
+    "argv",
+    "argc",
+    "arguments",
+    "cli",
+    "options",
+    "commands",
+    "bash",
+    "cmd",
+    "terminal",
+    "batch",
+    "input",
+    "mri",
+    "minimist"
+  ],
+  "dependencies": {
+    "mri": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "coveralls": "^2.13.1",
+    "fyi": "^1.0.1",
+    "nyc": "^11.1.0"
+  }
+}

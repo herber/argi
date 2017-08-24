@@ -14,7 +14,7 @@ ava('Throws error when help is not yet generated', t => {
 ava('Parses cli options', t => {
   const a = args;
 
-  a.option('name1', 'description1', { isBool: true });
+  a.option('name1', 'description1', { boolean: true });
   a.option('name2', 'description2', { default: 'testing', aliases: ['name3', 'x'] });
   a.option('name4', 'description4', { default: 'more tests' });
   a.option('name5', 'description5', { aliases: 'name7' });

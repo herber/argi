@@ -1,6 +1,6 @@
 {
   "name": "argi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple args parser",
   "license": "MIT",
   "repository": "tobihrbr/argi",

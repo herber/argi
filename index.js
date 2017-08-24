@@ -22,7 +22,7 @@ const option = (name, description, opts) => {
     description,
     default: opts.default || null,
     aliases: toArray(opts.aliases),
-    isBool: opts.isBool || false,
+    boolean: opts.boolean || false,
     hidden: opts.hidden || false
   };
 
@@ -99,7 +99,7 @@ const parse = (argv, opts) => {
   for (let opt in options) {
     opt = options[opt];
 
-    if (opt.isBool) mriOpts.boolean.push(opt.name);
+    if (opt.boolean) mriOpts.boolean.push(opt.name);
 
     if (opt.aliases !== []) {
       mriOpts.alias[opt.name] = {};

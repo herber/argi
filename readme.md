@@ -14,7 +14,7 @@ $ npm install --save argi
 const argi = require('argi');
 
 // Options
-argi.option('name', 'description', { default: 'bob', aliases: 'n', isBool: false, hidden: false });
+argi.option('name', 'description', { default: 'bob', aliases: 'n', boolean: false, hidden: false });
 
 // Commands
 argi.command('sayhi', 'description', { hidden: false });
@@ -61,19 +61,19 @@ Type: `string`, `array`
 
 Alias names for the option.
 
-##### isBool
+##### boolean
 
 Type: `boolean`
 Default: `false`
 
-Specifies whether the option is a boolean(`true`/`false`) or a string. If set to true arguments after the option will count as a command.
+Specifies whether the option is a boolean(`true`/`false`) or a string. If set to true arguments after the option will count as a command or as a separate option.
 
 Example:
 
 ```js
 ...
 
-argi.option('boolean', 'description', { isBool: true });
+argi.option('boolean', 'description', { boolean: true });
 
 const parsed = argi.parse(['--boolean', 'value'])
 parsed.boolean // => true

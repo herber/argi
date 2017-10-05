@@ -1,4 +1,4 @@
-# argi [![Codestyle fyi](https://img.shields.io/badge/code%20style-fyi-E91E63.svg)](https://github.com/tobihrbr/fyi) [![Build Status](https://travis-ci.org/herber/argi.svg?branch=master)](https://travis-ci.org/herber/argi) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/rvyedmu554502dlc?svg=true)](https://ci.appveyor.com/project/tobihrbr/argi) [![Coverage Status](https://coveralls.io/repos/github/herber/argi/badge.svg?branch=master)](https://coveralls.io/github/herber/argi?branch=master)
+# argi [![Codestyle fyi](https://img.shields.io/badge/code%20style-fyi-E91E63.svg)](https://github.com/tobihrbr/fyi) [![Build Status](https://travis-ci.org/herber/argi.svg?branch=master)](https://travis-ci.org/herber/argi) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/rvyedmu554502dlc?svg=true)](https://ci.appveyor.com/project/tobihrbr/argi) [![Coverage Status](https://coveralls.io/repos/github/tobihrbr/argi/badge.svg?branch=master)](https://coveralls.io/github/tobihrbr/argi?branch=master)
 
 > A simple args parser
 
